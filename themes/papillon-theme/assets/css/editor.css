@@ -1,3 +1,12 @@
+.entry-content {
+    max-width: 968px;
+    margin: auto;
+    -webkit-margin: auto;
+    -moz-margin: auto;
+    -ms-margin: auto;
+    -o-margin: auto;
+}
+
 /* HEADING FONT - FINO SANS */
 @import url("https://use.typekit.net/pcc6ezi.css");
 
@@ -67,6 +76,16 @@ p>a {
     -ms-border-radius: 0;
     -o-border-radius: 0;
     background: #000000;
+}
+
+.contact-btn .wp-block-button {
+    color: white;
+    background-color: #000000;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
 }
 
 .is-btn .wp-block-button_link .wp-block-button {

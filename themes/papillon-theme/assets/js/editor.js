@@ -8,6 +8,11 @@ wp.blocks.registerBlockStyle( 'core/button', {
     label: 'The Button'
 } );
 
+wp.blocks.registerBlockStyle( 'core/button', {
+    name: 'contact-btn',
+    label: 'Contact Button'
+} );
+
 wp.blocks.registerBlockStyle( 'core/paragraph', {
     name: 'body-paragraph',
     label: 'body Paragraph'
