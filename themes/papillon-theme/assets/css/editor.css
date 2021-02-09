@@ -115,7 +115,7 @@ header {
 .main_icons {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .site-header {
@@ -143,8 +143,7 @@ header {
 
 .icons {
     width: 25%;
-    height: 66px;
-    background-color: #fff;
+    height: 46px;
 }
 
 .navigation {
@@ -206,7 +205,6 @@ footer {
 .footer_icon {
     width: 35px;
     height: 35px;
-    background: blue;
     margin-right: 5px;
 }
 
@@ -253,4 +251,16 @@ form {
 .entry-title,
 .is-style-about-page-numbers-primary {
     text-align: center;
+}
+
+
+#instagram,
+#Capa_1,
+#twitter,
+#facebook,
+#cart,
+#account,
+#youtube,
+#snapchat {
+    fill: #c9bc3d;
 }
