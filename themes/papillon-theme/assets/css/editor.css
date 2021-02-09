@@ -124,6 +124,12 @@ header {
     -o-box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.2);
 }
 
+footer {
+    background: #324e75;
+    color: white;
+    padding-top: 50px;
+}
+
 .nav_list {
     display: flex;
     flex-direction: row;
@@ -135,4 +141,65 @@ header {
 .nav_item {
     font-size: 22px;
     color: white;
+}
+
+
+/* FOOTER */
+.foot_item {
+    list-style: none;
+    margin-left: -23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    -webkit-padding: 5px;
+    -moz-padding: 5px;
+    -ms-padding: 5px;
+    -o-padding: 5px;
+}
+
+
+.footer_icon {
+    width: 35px;
+    height: 35px;
+    background: blue;
+    margin-right: 5px;
+}
+
+#news_text {
+    font-size: 13px;
+}
+
+#news_text>a {
+    color: black;
+    text-decoration: underline;
+}
+
+#newsletter {
+    background: #000000;
+    padding: 0 0 0 15px;
+    -webkit-padding: 0 0 0 15px;
+    -moz-padding: 0 0 0 15px;
+    -ms-padding: 0 0 0 15px;
+    -o-padding: 0 0 0 15px;
+    color: #ffffff;
+}
+
+form {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#arrow {
+    cursor: pointer;
+    font-size: 25px;
+    position: absolute;
+    color: white;
+    left: 90%
+}
+
+.site-info {
+    padding-top: 15px;
 }
