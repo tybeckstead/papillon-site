@@ -72,7 +72,7 @@ p>a {
     background: #000000;
 }
 
-.main-btn .wp-block-button_link .wp-block-button {
+.is-btn .wp-block-button_link .wp-block-button {
     color: #ffffff;
     background: #000000;
     border-radius: 0%;
@@ -80,6 +80,10 @@ p>a {
     -moz-border-radius: 0%;
     -ms-border-radius: 0%;
     -o-border-radius: 0%;
+    font-family: forma-djr-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1.5px;
 }
 
 

@@ -4,8 +4,8 @@ wp.blocks.registerBlockStyle( 'core/quote', {
 } );
 
 wp.blocks.registerBlockStyle( 'core/button', {
-    name: 'main-btn',
-    label: 'Main Button'
+    name: 'is-btn',
+    label: 'The Button'
 } );
 
 wp.blocks.registerBlockStyle( 'core/paragraph', {
