@@ -1,0 +1,74 @@
+/* HEADING FONT - FINO SANS */
+@import url("https://use.typekit.net/pcc6ezi.css");
+
+.entry-title,
+h1,
+h2 {
+    font-family: fino-sans, sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+h1,
+h1>a {
+    color: #c9bc3d;
+}
+
+h2 {
+    color: #000000;
+}
+
+/* SUB-HEADING FONT - FUTURA */
+@import url("https://use.typekit.net/pcc6ezi.css");
+
+h3,
+h4 {
+    font-family: futura-pt-condensed, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h3 {
+    color: #000000;
+}
+
+h4 {
+    color: #ffffff;
+}
+
+/* SUB-HEADING FONT - FUTURA */
+@import url("https://use.typekit.net/pcc6ezi.css");
+
+p {
+    font-family: forma-djr-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+p>a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+
+
+/* BUTTON STYLES */
+.wp-block-button__link {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.main-btn .wp-block-button_link .wp-block-button {
+    color: #ffffff;
+    background: #000000;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+}
