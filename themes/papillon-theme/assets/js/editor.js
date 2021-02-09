@@ -9,8 +9,8 @@ wp.blocks.registerBlockStyle( 'core/button', {
 } );
 
 wp.blocks.registerBlockStyle( 'core/paragraph', {
-    name: 'general-paragraph',
-    label: 'General Paragraph'
+    name: 'body-paragraph',
+    label: 'body Paragraph'
 } );
 
 wp.blocks.registerBlockStyle( 'core/heading', {
