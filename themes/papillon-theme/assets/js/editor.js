@@ -29,6 +29,12 @@ wp.blocks.registerBlockStyle( 'core/heading', {
 } );
 
 
+wp.blocks.registerBlockStyle( 'core/heading', {
+    name: 'about-page-numbers-primary',
+    label: 'About Page Number Sub-Heading'
+} );
+
+
 wp.domReady( function () {
     wp.blocks.unregisterBlockStyle( 'core/quote', 'large');
     wp.blocks.unregisterBlockStyle( 'core/button', 'fill');

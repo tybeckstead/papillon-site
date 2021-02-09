@@ -14,9 +14,7 @@
     color: #000000;
 }
 
-.entry-title,
-h1,
-h2 {
+.entry-title {
     font-family: fino-sans, sans-serif !important;
     font-weight: 400;
     font-style: normal;
@@ -27,8 +25,7 @@ h2 {
 /* SUB-HEADING FONT - FUTURA */
 @import url("https://use.typekit.net/pcc6ezi.css");
 
-h3,
-h4,
+
 .nav_item {
     font-family: futura-pt-condensed, sans-serif;
     font-weight: 500;
@@ -145,6 +142,13 @@ footer {
     color: #c9bc3d;
 }
 
+.about-page-numbers-primary {
+    font-size: 25px;
+    font-family: forma-djr-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .nav_list {
     display: flex;
     flex-direction: row;
@@ -218,4 +222,10 @@ form {
 
 .site-info {
     padding-top: 15px;
+}
+
+
+.entry-title,
+.is-style-about-page-numbers-primary {
+    text-align: center;
 }
