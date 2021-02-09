@@ -8,6 +8,16 @@ wp.blocks.registerBlockStyle( 'core/button', {
     label: 'Main Button'
 } );
 
+wp.blocks.registerBlockStyle( 'core/paragraph', {
+    name: 'general-paragraph',
+    label: 'General Paragraph'
+} );
+
+wp.blocks.registerBlockStyle( 'core/heading', {
+    name: 'main-heading',
+    label: 'Main Heading'
+} );
+
 
 wp.domReady( function () {
     wp.blocks.unregisterBlockStyle( 'core/quote', 'large');

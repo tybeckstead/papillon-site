@@ -1,6 +1,13 @@
 /* HEADING FONT - FINO SANS */
 @import url("https://use.typekit.net/pcc6ezi.css");
 
+.main-heading {
+    font-family: fino-sans, sans-serif !important;
+    font-size: 100px;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .entry-title,
 h1,
 h2 {
@@ -10,8 +17,7 @@ h2 {
     font-size: 60px;
 }
 
-h1,
-h1>a {
+h1 {
     color: #c9bc3d;
 }
 
@@ -41,7 +47,7 @@ h4 {
 /* SUB-HEADING FONT - FUTURA */
 @import url("https://use.typekit.net/pcc6ezi.css");
 
-p {
+.general-paragraph {
     font-family: forma-djr-display, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -62,6 +68,7 @@ p>a {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
+    background: #000000;
 }
 
 .main-btn .wp-block-button_link .wp-block-button {
