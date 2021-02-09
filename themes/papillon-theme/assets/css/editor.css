@@ -7,13 +7,12 @@
     -o-margin: auto;
 }
 
-/* HEADING FONT - FINO SANS */
-@import url("https://use.typekit.net/pcc6ezi.css");
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
 
 .main-heading,
-.extra-main-heading {
-    font-family: fino-sans,
-        sans-serif !important;
+.extra-main-heading,
+.editor-styles-wrapper h1 {
+    font-family: 'Libre Caslon Display', serif;
     font-weight: 600;
     font-style: normal;
     font-size: 100px;
@@ -23,7 +22,7 @@
     color: #000000;
 }
 
-.item-image {
+.wp-block-image .item-image .block-editor-block-list__layout .wp-block {
     width: 175px;
     height: 275px;
 }
@@ -35,13 +34,11 @@
     font-size: 60px;
 }
 
-
-/* SUB-HEADING FONT - FUTURA */
-@import url("https://use.typekit.net/pcc6ezi.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
 .nav_item {
-    font-family: futura-pt-condensed, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-style: normal;
 }
@@ -54,11 +51,10 @@ h4 {
     color: #ffffff;
 }
 
-/* SUB-HEADING FONT - FUTURA */
-@import url("https://use.typekit.net/pcc6ezi.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 .body-paragraph {
-    font-family: forma-djr-display, sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 1.5px;
@@ -130,7 +126,7 @@ header {
     -o-padding: 10px 0 0;
 }
 
-.featured-image {
+.block-editor-block-list__layout .wp-block .featured-image {
     width: 50%;
     height: 65%;
 }
