@@ -23,7 +23,8 @@ h2 {
 @import url("https://use.typekit.net/pcc6ezi.css");
 
 h3,
-h4 {
+h4,
+.nav_item {
     font-family: futura-pt-condensed, sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -71,4 +72,67 @@ p>a {
     -moz-border-radius: 0%;
     -ms-border-radius: 0%;
     -o-border-radius: 0%;
+}
+
+
+header {
+    background-color: #324e75;
+}
+
+.social_container {
+    background: green;
+    width: 50px;
+}
+
+.main_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.site-header {
+    padding: 10px 0 0;
+    -webkit-padding: 10px 0 0;
+    -moz-padding: 10px 0 0;
+    -ms-padding: 10px 0 0;
+    -o-padding: 10px 0 0;
+}
+
+.logo_box {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 250px;
+    height: auto;
+}
+
+.icons {
+    width: 25%;
+    height: 66px;
+    background-color: #fff;
+}
+
+.navigation {
+    margin-top: 5px;
+    background: #00a8b6;
+    box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.2);
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 10px;
+}
+
+.nav_item {
+    font-size: 22px;
+    color: white;
 }
