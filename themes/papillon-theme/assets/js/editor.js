@@ -1,6 +1,6 @@
-wp.blocks.registerBlockStyle( 'core/quote', {
-    name: 'fancy-quote',
-    label: 'Fancy Quote'
+wp.blocks.registerBlockStyle( 'core/separator', {
+    name: 'gold-separator',
+    label: 'Gold Separator'
 } );
 
 wp.blocks.registerBlockStyle( 'core/button', {
