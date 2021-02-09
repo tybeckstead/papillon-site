@@ -125,6 +125,11 @@ header {
     -o-padding: 10px 0 0;
 }
 
+.featured-image {
+    width: 50%;
+    height: 65%;
+}
+
 .logo_box {
     display: flex;
     justify-content: center;

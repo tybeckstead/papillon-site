@@ -13,6 +13,11 @@ wp.blocks.registerBlockStyle( 'core/button', {
     label: 'Contact Button'
 } );
 
+wp.blocks.registerBlockStyle( 'core/image', {
+    name: 'featured-image',
+    label: 'Featured Image'
+} );
+
 wp.blocks.registerBlockStyle( 'core/paragraph', {
     name: 'body-paragraph',
     label: 'body Paragraph'
