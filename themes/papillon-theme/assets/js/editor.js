@@ -15,7 +15,17 @@ wp.blocks.registerBlockStyle( 'core/paragraph', {
 
 wp.blocks.registerBlockStyle( 'core/heading', {
     name: 'main-heading',
-    label: 'Main Heading'
+    label: 'Main Heading One'
+} );
+
+wp.blocks.registerBlockStyle( 'core/heading', {
+    name: 'extra-main-heading',
+    label: 'Main Heading Two'
+} );
+
+wp.blocks.registerBlockStyle( 'core/heading', {
+    name: 'sub-heading-primary',
+    label: 'Sub Heading'
 } );
 
 

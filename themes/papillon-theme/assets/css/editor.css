@@ -1,11 +1,17 @@
 /* HEADING FONT - FINO SANS */
 @import url("https://use.typekit.net/pcc6ezi.css");
 
-.main-heading {
+.main-heading,
+.extra-main-heading {
     font-family: fino-sans, sans-serif !important;
     font-size: 100px;
     font-weight: 400;
     font-style: normal;
+    color: #c9bc3d;
+}
+
+.extra-main-heading {
+    color: #000000;
 }
 
 .entry-title,
@@ -17,13 +23,6 @@ h2 {
     font-size: 60px;
 }
 
-h1 {
-    color: #c9bc3d;
-}
-
-h2 {
-    color: #000000;
-}
 
 /* SUB-HEADING FONT - FUTURA */
 @import url("https://use.typekit.net/pcc6ezi.css");
@@ -59,7 +58,9 @@ p>a {
     text-decoration: underline;
 }
 
-
+.sub-heading-primary {
+    font-size: 30px !important;
+}
 
 /* BUTTON STYLES */
 .wp-block-button__link {
