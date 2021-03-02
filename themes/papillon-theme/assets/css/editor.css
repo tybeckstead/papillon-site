@@ -1,10 +1,10 @@
-.entry-content {
+.page-content, .entry-content, .entry-summary{
     max-width: 968px;
-    margin: auto;
-    -webkit-margin: auto;
-    -moz-margin: auto;
-    -ms-margin: auto;
-    -o-margin: auto;
+    margin: auto !important;
+    -webkit-margin: auto !important;
+    -moz-margin: auto !important;
+    -ms-margin: auto !important;
+    -o-margin: auto !important;
 }
 
 @media only screen and (min-width:1024px){
