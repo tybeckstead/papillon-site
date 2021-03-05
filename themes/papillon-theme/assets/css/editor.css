@@ -31,6 +31,13 @@
     grid-column: 2;
 }
 
+.tabs > li {
+    padding: 0 1rem !important;
+    -webkit-padding: 0 1rem !important;
+    -moz-padding: 0 1rem !important;
+    -ms-padding: 0 1rem !important;
+    -o-padding: 0 1rem !important;
+}
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active{
     border-bottom: #c9bc3d solid 0.3rem !important;
@@ -144,6 +151,19 @@ p>a {
 
 .sub-heading-primary {
     font-size: 30px !important;
+}
+
+main footer {
+    background: none !important;
+}
+
+main .navigation {
+    background: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -ms-box-shadow: none !important;
+    -o-box-shadow: none !important;
 }
 
 /* BUTTON STYLES */
