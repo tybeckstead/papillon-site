@@ -142,6 +142,10 @@ function papillon_theme_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'papillon_theme_scripts' );
 
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'papillon-theme'),
+    'secondary' => __( 'Secondary Menu', 'papillon-theme' ),
+ ) );
 
 /**
  * Custom template tags for this theme.
