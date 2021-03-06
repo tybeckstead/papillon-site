@@ -145,6 +145,8 @@ add_action( 'wp_enqueue_scripts', 'papillon_theme_scripts' );
 register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'papillon-theme'),
     'secondary' => __( 'Secondary Menu', 'papillon-theme' ),
+    'footer_section_1' => __( 'footer_section_1', 'papillon-theme' ),
+    'footer_section_2' => __( 'footer_section_2', 'papillon-theme' ),
  ) );
 
 /**
