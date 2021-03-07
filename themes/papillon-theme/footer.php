@@ -67,7 +67,7 @@
 				</div>
 				<div class="large-3 cell footer_info">
 					<h3>Our Newsletter</h3>
-					<p id="news_text">By entering your email address below, you conset to recieving our newsletter with access to our latest collections, events, and initiatives. More details on this are provided in our <a href="#">Privacy Policy</a>.</br><b>As explained in the <a href="#">Privacy Policy</a>, you may <a href="#">unsubscribe</a> at any time to withdraw you conset to recieve papillon electronic communications.</b></p>
+					<p id="news_text">By entering your email address below, you conset to recieving our newsletter with access to our latest collections, events, and initiatives. More details on this are provided in our <a href="<?php echo esc_url( content_url( '/privacy-policy' ) ); ?>" rel="privacy-policy">Privacy Policy</a>.</br><b>As explained in the <a href="<?php echo esc_url( content_url( '/privacy-policy' ) ); ?>" rel="privacy-policy">Privacy Policy</a>, you may <a href="#">unsubscribe</a> at any time to withdraw you conset to recieve papillon electronic communications.</b></p>
 					<form>
 						<input type="text" placeholder="ENTER EMAIL ADDRESS" id="newsletter">
 						<p id="arrow">></p>
@@ -80,7 +80,7 @@
 						<p>© 2021 Papillon - All Rights Reserved</p>
 					</div>
 					<div class="cell large-7 small-12 rights">
-						<p>Privacy Policy | Terms and Conditions | Shipping Policy</p>
+						<p><a href="<?php echo esc_url( content_url( '/privacy-policy' ) ); ?>" rel="privacy-policy">Privacy Policy</a> | <a href="<?php echo esc_url( content_url( '/terms-and-conditions' ) ); ?>" rel="terms-and-conditions">Terms and Conditions</a> | <a href="<?php echo esc_url( content_url( '/shipping-policy' ) ); ?>" rel="shipping-policy">Shipping Policy</a></p>
 					</div>
 				</div>
 			</div>

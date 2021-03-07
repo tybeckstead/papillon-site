@@ -1,3 +1,11 @@
+.post, .page {
+    margin: 0 !important;
+    -webkit-margin: 0 !important;
+    -moz-margin: 0 !important;
+    -ms-margin: 0 !important;
+    -o-margin: 0 !important;
+}
+
 .page-content, .entry-content, .entry-summary{
     max-width: 968px;
     margin: auto !important;
@@ -126,6 +134,7 @@ h3 {
 h4 {
     color: #ffffff;
 }
+
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
@@ -303,9 +312,10 @@ footer {
     margin-left: -13px;
 }
 
-#footer_section_1 .menu-item > a, #footer_section_2 .menu-item > a{
+#footer_section_1 .menu-item > a, #footer_section_2 .menu-item > a, .rights p > a{
     color: white !important;
 }
+
 
 .foot_item {
     display: flex;
@@ -328,7 +338,7 @@ a > .footer_text {
     color: white !important;
 }
 
-a > .footer_text:hover {
+#footer_section_1 .menu-item > a:hover, #footer_section_2 .menu-item > a:hover, a > .footer_text:hover, .rights p > a:hover {
     color: #c9bc3d !important;
 }
 

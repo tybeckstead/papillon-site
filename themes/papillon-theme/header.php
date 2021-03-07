@@ -84,7 +84,6 @@
 							</g>
 						</g>
 					</svg>
-					
 					<a href="<?php echo esc_url( content_url( '/my-account' ) ); ?>" rel="my-account"><svg version="1.1" id="account" class="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 						width="510px" height="510px" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
 						<g>
