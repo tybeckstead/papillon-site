@@ -6,6 +6,72 @@
     -o-margin: 0 !important;
 }
 
+.woocommerce .woocommerce-MyAccount-content {
+    margin-top: 2rem;
+    padding: 0 2rem;
+    -webkit-padding: 0 2rem;
+    -moz-padding: 0 2rem;
+    -ms-padding: 0 2rem;
+    -o-padding: 0 2rem;
+}
+
+.woocommerce-MyAccount-navigation ul {
+    list-style: none;
+}
+.is-active, .is-active > a {
+    color: white !important;
+    background: #324e75 !important;
+}
+
+.is-active {
+    box-shadow: 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+
+.woocommerce-MyAccount-navigation-link {
+    margin: 2rem 0 !important;
+    -webkit-margin: 2rem 0 !important;
+    -moz-margin: 2rem 0 !important;
+    -ms-margin: 2rem 0 !important;
+    -o-margin: 2rem 0 !important;
+    border: 0.3rem solid #c9bc3d;
+    padding: 1rem !important;
+    -webkit-padding: 1rem !important;
+    -moz-padding: 1rem !important;
+    -ms-padding: 1rem !important;
+    -o-padding: 1rem !important;
+    background: rgba(225, 225, 225, 0.2);
+}
+
+.woocommerce-MyAccount-navigation-link > a {
+    font-size: 1.3rem;
+}
+
+.woocommerce-MyAccount-navigation-link > a:hover {
+    color: #c9bc3d !important;
+}
+
+.woocommerce-MyAccount-content .woocommerce-EditAccountForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.edit-account > .woocommerce-form-row {
+    width: 100% !important;
+}
+
+.edit-account > fieldset {
+    width: 100% !important;
+}
+
+.woocommerce-info::before {
+    color: #00b76a !important;
+}
+
 .page-content, .entry-content, .entry-summary{
     max-width: 968px;
     margin: auto !important;
@@ -209,7 +275,7 @@ main .navigation {
     letter-spacing: 1.5px;
 }
 
-header {
+.site-header {
     background-color: #324e75;
 }
 
