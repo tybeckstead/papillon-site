@@ -109,12 +109,12 @@
 				<div class="cell large-12 medium-12 navigation hide-for-medium-up">
 					<nav id="site-navigation" class="main-navigation">
 						<?php
-						wp_nav_menu(
-							array(
-								'theme_location' => 'menu-1',
-								'menu_id'        => 'primary-menu',
-							)
-						);
+							wp_nav_menu(
+								array(
+									'theme_location' => 'header_section',
+									'menu_id'        => 'header_section',
+								)
+							);
 						?>
 					</nav><!-- #site-navigation -->
 				</div>
