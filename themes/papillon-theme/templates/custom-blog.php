@@ -1,17 +1,19 @@
 <?php
 /**
- * Template part for displaying posts
- *
+ * The template for displaying single posts and pages.
+ * Template Name: Front Page Template
+ * Template Post Type: post, page
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package Papillon_Store_Theme
- *
- *  Template Name: Blog Post Custom
- *  Template Post Type: post, page, product
+ * 
+ * @package WordPress
+ * @subpackage Papillon_Store_Theme
+ * @since Twenty Twenty 1.0
  */
 
+get_header();
 ?>
-<main id="site-content" role="main">
+<!-- MAKE UNQUE -->
+<main id="site-blog-post" role="main">
 	
 	<?php
 
@@ -30,6 +32,7 @@
 			);
 		
 			$query = new WP_Query( $args );
+            
 			if ( $query->have_posts() ) {
 		
 				while ( $query->have_posts() ) {
@@ -41,15 +44,15 @@
 					$post_link = get_the_permalink();
 		
 					?>
-		
-					<div class="entry-content additional-post">
-						<hr class="divider">
-						<h2><a href="<?php echo $post_link; ?>"><?php echo $post_title;?></a></h2>
-						<img class="wp-post-image" src="<?php echo $post_thumbnail; ?>" alt="Featured Post Image"  >
-						<p><?php echo $post_content;?></p>
-						<p><a href="<?php echo $post_title?>"> Read More</a></p>
-					</div> 
-		
+
+                    <div class="entry-content additional-post">
+                        <hr class="divider">
+                        <h2><a href="<?php echo $post_link; ?>"><?php echo $post_title;?></a></h2>
+                        <img class="wp-post-image" src="<?php echo $post_thumbnail; ?>" alt="Featured Post Image"  >
+                        <p><?php echo $post_content;?></p>
+                        <p><a href="<?php echo $post_title?>"> Read More</a></p>
+                    </div> 
+					
 					<?php
 				}
 			}
@@ -65,3 +68,4 @@
 <?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
 
 <?php get_footer(); ?>
+
