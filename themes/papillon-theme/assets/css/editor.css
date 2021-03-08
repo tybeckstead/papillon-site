@@ -554,7 +554,7 @@ footer {
     -o-margin: 7rem 0 0 3rem!important;
 }
 
-.single-post .site .site-main {
+.single-post .site .site-main, .blog .site-main {
     margin: 0 !important;
     -webkit-margin: 0 !important;
     -moz-margin: 0 !important;
