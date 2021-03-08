@@ -176,6 +176,22 @@
         grid-column: 1/3 !important;
         grid-row: 2 !important;
     }
+
+    .site_blog_content {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        -webkit-margin: 0 auto;
+        -moz-margin: 0 auto;
+        -ms-margin: 0 auto;
+        -o-margin: 0 auto;
+    }
+    
+    .site_blog_content > .blog-content{        
+        width: 90%;
+    }
 }
 
 .entry-content > h2{
