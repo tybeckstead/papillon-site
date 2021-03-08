@@ -582,7 +582,12 @@ footer {
 }
 
 .post-thumbnail > .wp-post-image {
-    height: 50vh;
+    height: 70vh;
+    width: 100%;
+}
+
+.entry-title > a {
+    color: #c9bc3d;
 }
 
 .menu-item {
