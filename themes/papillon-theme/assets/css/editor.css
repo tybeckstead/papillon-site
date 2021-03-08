@@ -545,6 +545,46 @@ footer {
     padding-top: 10px;
 }
 
+.entry-header .entry-meta {
+    margin: 7rem 0 0 3rem!important;
+    color: white;
+    -webkit-margin: 7rem 0 0 3rem!important;
+    -moz-margin: 7rem 0 0 3rem!important;
+    -ms-margin: 7rem 0 0 3rem!important;
+    -o-margin: 7rem 0 0 3rem!important;
+}
+
+.single-post .site .site-main {
+    margin: 0 !important;
+    -webkit-margin: 0 !important;
+    -moz-margin: 0 !important;
+    -ms-margin: 0 !important;
+    -o-margin: 0 !important;
+}
+
+.post > .entry-header {
+    position: absolute;
+    width: 100%;
+} 
+
+.post .entry-header .entry-title{
+    margin-top: 5rem;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Libre Caslon Display', serif !important;
+    font-size: 5rem;
+    color: #c9bc3d;
+}
+
+.post .entry-content {
+    margin-top: 3rem !important;
+}
+
+.post-thumbnail > .wp-post-image {
+    height: 50vh;
+}
+
 .menu-item {
     font-size: 22px;
     padding: 1rem;
