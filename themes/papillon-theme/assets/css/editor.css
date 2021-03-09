@@ -162,6 +162,11 @@
     -o-margin: auto !important;
 }
 
+.single-product .product .cart {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
 
 .price {
     color: black !important;
