@@ -713,8 +713,8 @@ footer {
     width: 100%;
 }
 
-.woocommerce-billing-fields > h3, #order_review_heading, .woocommerce-additional-fields > h3 {
-    font-size: 2rem;
+.woocommerce-billing-fields > h3, #order_review_heading, .woocommerce-additional-fields > h3, .woocommerce-EditAccountForm  fieldset legend {
+    font-size: 2rem !important;
     text-align: center;
     text-transform: capitalize;
 }
@@ -725,7 +725,7 @@ p > .woocommerce-Button {
     margin-top: 1rem !important;
 }
 
-.woocommerce-billing-fields__field-wrapper .form-row  label, .woocommerce-additional-fields__field-wrapper .form-row label{
+.woocommerce-billing-fields__field-wrapper .form-row  label, .woocommerce-additional-fields__field-wrapper .form-row label, .woocommerce-EditAccountForm p label{
     font-weight: bolder;
     text-transform: capitalize;
 }
