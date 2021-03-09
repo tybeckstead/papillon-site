@@ -159,6 +159,7 @@
     #nav {
         display: none;
     }
+    
 }
 
 @media only screen and (max-width:768px){
@@ -191,6 +192,19 @@
     
     .site_blog_content > .blog-content{        
         width: 90%;
+    }
+
+    .entry-content {
+        margin: 0 1rem !important;
+        -webkit-margin: 0 1rem !important;
+        -moz-margin: 0 1rem !important;
+        -ms-margin: 0 1rem !important;
+        -o-margin: 0 1rem !important;
+        padding: 0 !important;
+        -webkit-padding: 0 !important;
+        -moz-padding: 0 !important;
+        -ms-padding: 0 !important;
+        -o-padding: 0 !important;
     }
 }
 
@@ -638,6 +652,11 @@ footer {
 
 .post .entry-content {
     margin-top: 3rem !important;
+    padding: 1rem !important;
+    -webkit-padding: 1rem !important;
+    -moz-padding: 1rem !important;
+    -ms-padding: 1rem !important;
+    -o-padding: 1rem !important;
 }
 
 .post-thumbnail > .wp-post-image {
