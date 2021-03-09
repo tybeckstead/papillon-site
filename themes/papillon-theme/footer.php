@@ -14,8 +14,8 @@
 	<footer id="colophon" class="site-footer">
 		<div class="grid-container">
 			<div class="grid-x">
-				<div class="large-3 cell footer_info">
-					<h3>Help</h3>
+				<div class="large-3 medium-6 cell footer_info">
+					<h3 class="footer_title">Help</h3>
 					<?php
 						wp_nav_menu(
 							array(
@@ -25,8 +25,8 @@
 						);
 					?>
 				</div>
-				<div class="large-3 cell footer_info">
-					<h3>The Company</h3>
+				<div class="large-3 medium-6 cell footer_info">
+					<h3 class="footer_title">The Company</h3>
 					<?php
 						wp_nav_menu(
 							array(
@@ -36,8 +36,8 @@
 						);
 					?>
 				</div>
-				<div class="large-3 cell footer_info">
-					<h3>Follow Us</h3>
+				<div class="large-3 medium-6 cell footer_info">
+					<h3 class="footer_title">Follow Us</h3>
 					<div class="foot_list">
 						<div class="foot_item">
 							<svg class="footer_icon" id="facebook" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
@@ -65,8 +65,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="large-3 cell footer_info">
-					<h3>Our Newsletter</h3>
+				<div class="large-3 medium-6 cell footer_info">
+					<h3 class="footer_title">Our Newsletter</h3>
 					<p id="news_text">By entering your email address below, you conset to recieving our newsletter with access to our latest collections, events, and initiatives. More details on this are provided in our <a href="<?php echo esc_url( content_url( '/privacy-policy' ) ); ?>" rel="privacy-policy">Privacy Policy</a>.</br><b>As explained in the <a href="<?php echo esc_url( content_url( '/privacy-policy' ) ); ?>" rel="privacy-policy">Privacy Policy</a>, you may <a href="#">unsubscribe</a> at any time to withdraw you conset to recieve papillon electronic communications.</b></p>
 					<form id="newsletter_container">
 						<input type="text" placeholder="ENTER EMAIL ADDRESS" id="newsletter">
@@ -77,7 +77,7 @@
 			<div class="site-info">
 				<div class="grid-x">
 					<div class="cell large-4 small-12 rights">
-						<p>© 2021 Papillon - All Rights Reserved</p>
+						<p class="footer_right_reserved">© 2021 Papillon - All Rights Reserved</p>
 					</div>
 					<div class="cell large-7 small-12 rights">
 						<p><a href="<?php echo esc_url( content_url( '/privacy-policy' ) ); ?>" rel="privacy-policy">Privacy Policy</a> | <a href="<?php echo esc_url( content_url( '/terms-and-conditions' ) ); ?>" rel="terms-and-conditions">Terms and Conditions</a> | <a href="<?php echo esc_url( content_url( '/shipping-policy' ) ); ?>" rel="shipping-policy">Shipping Policy</a></p>

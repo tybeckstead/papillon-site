@@ -628,7 +628,7 @@ main .navigation {
 footer {
     background: #324e75;
     color: white;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .gold-separator .is-style-gold-separator {
@@ -734,6 +734,22 @@ footer {
     font-size: 0.8rem;
 }
 
+.footer_title {
+    font-size: 1.6rem;
+    text-align: center !important;
+}
+
+.rights .footer_right_reserved {
+    font-size: 0.8rem !important;
+}
+
+footer .footer_info {
+    margin: 1rem 0;
+    -webkit-margin: 1rem 0;
+    -moz-margin: 1rem 0;
+    -ms-margin: 1rem 0;
+    -o-margin: 1rem 0;
+}
 
 .foot_item {
     display: flex;
@@ -782,7 +798,7 @@ a > .footer_text {
 }
 
 #news_text {
-    font-size: 15px;
+    font-size: 0.8rem;
 }
 
 #news_text>a,
