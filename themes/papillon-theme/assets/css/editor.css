@@ -112,6 +112,7 @@
 }
 
 .woocommerce-MyAccount-navigation-link {
+    text-transform: capitalize !important;
     margin: 2rem 0 !important;
     -webkit-margin: 2rem 0 !important;
     -moz-margin: 2rem 0 !important;
