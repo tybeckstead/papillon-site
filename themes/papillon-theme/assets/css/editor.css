@@ -59,6 +59,11 @@
     -moz-padding: 1rem;
     -ms-padding: 1rem;
     -o-padding: 1rem;
+    margin: 1rem;
+    -webkit-margin: 1rem;
+    -moz-margin: 1rem;
+    -ms-margin: 1rem;
+    -o-margin: 1rem;
 }
 
 .comments-link > a {
@@ -67,13 +72,13 @@
 }
 
 .blog .tags-links > a {
-    padding: 0.5rem;
-    -webkit-padding: 0.5rem;
-    -moz-padding: 0.5rem;
-    -ms-padding: 0.5rem;
-    -o-padding: 0.5rem;
-    border: 0.2rem solid #c9bc3d;
-    color: #324e75;
+    color: #c9bc3d;
+    text-decoration: underline;
+}
+
+.blog .tags-links > a:hover {
+    color: #1792e2;
+    text-decoration: underline;
 }
 
 .entry-footer {
@@ -709,6 +714,10 @@ footer {
 
 .entry-title > a {
     color: #c9bc3d;
+}
+
+.entry-title > a:hover {
+    color: #324e75;
 }
 
 .menu-item {
