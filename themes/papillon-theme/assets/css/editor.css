@@ -731,6 +731,7 @@ footer {
 
 #footer_section_1 .menu-item > a, #footer_section_2 .menu-item > a, .rights p > a{
     color: white !important;
+    font-size: 0.8rem;
 }
 
 
@@ -744,15 +745,16 @@ footer {
     -moz-padding: 5px;
     -ms-padding: 5px;
     -o-padding: 5px;
-    margin: 0.3rem 0;
-    -webkit-margin: 0.3rem 0;
-    -moz-margin: 0.3rem 0;
-    -ms-margin: 0.3rem 0;
-    -o-margin: 0.3rem 0;
+    margin: 0.5rem 0;
+    -webkit-margin: 0.5rem 0;
+    -moz-margin: 0.5rem 0;
+    -ms-margin: 0.5rem 0;
+    -o-margin: 0.5rem 0;
 }
 
 a > .footer_text {
     color: white !important;
+    font-size: 0.8rem;
 }
 
 #footer_section_1 .menu-item > a:hover, #footer_section_2 .menu-item > a:hover, a > .footer_text:hover, .rights p > a:hover {
@@ -773,8 +775,8 @@ a > .footer_text {
 }
 
 .footer_icon {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     margin-right: 15px;
     
 }
