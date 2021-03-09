@@ -402,6 +402,10 @@
     font-style: normal;
 }
 
+.main-navigation .menu-item  a:hover {
+    color: #324e75 !important;
+}
+
 h3 {
     color: #000000;
 }
