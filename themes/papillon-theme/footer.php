@@ -76,11 +76,11 @@
 			</div>
 			<div class="site-info">
 				<div class="grid-x">
-					<div class="cell large-4 small-12 rights">
+					<div class="cell large-4 medium-6 small-12 rights">
 						<p class="footer_right_reserved">© 2021 Papillon - All Rights Reserved</p>
 					</div>
-					<div class="cell large-7 small-12 rights">
-						<p><a href="<?php echo esc_url( content_url( '/privacy-policy' ) ); ?>" rel="privacy-policy">Privacy Policy</a> | <a href="<?php echo esc_url( content_url( '/terms-and-conditions' ) ); ?>" rel="terms-and-conditions">Terms and Conditions</a> | <a href="<?php echo esc_url( content_url( '/shipping-policy' ) ); ?>" rel="shipping-policy">Shipping Policy</a></p>
+					<div class="cell large-7 medium-6 small-12 rights">
+						<p class="footer_right_reserved"><a href="<?php echo esc_url( content_url( '/privacy-policy' ) ); ?>" rel="privacy-policy">Privacy Policy</a> | <a href="<?php echo esc_url( content_url( '/terms-and-conditions' ) ); ?>" rel="terms-and-conditions">Terms and Conditions</a> | <a href="<?php echo esc_url( content_url( '/shipping-policy' ) ); ?>" rel="shipping-policy">Shipping Policy</a></p>
 					</div>
 				</div>
 			</div>

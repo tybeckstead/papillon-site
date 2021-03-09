@@ -195,6 +195,9 @@
 }
 
 @media only screen and (max-width:768px){
+    .footer_right_reserved {
+        text-align: center !important;
+    }
     #post-121 .woocommerce {
         display: grid !important;
         grid-template-columns: 2fr 2fr !important;
