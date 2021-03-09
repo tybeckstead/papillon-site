@@ -725,6 +725,10 @@ p > .woocommerce-Button {
     margin-top: 1rem !important;
 }
 
+.woocommerce-account .entry-header h1 {
+    text-transform: capitalize;
+}
+
 .woocommerce-billing-fields__field-wrapper .form-row  label, .woocommerce-additional-fields__field-wrapper .form-row label, .woocommerce-EditAccountForm p label{
     font-weight: bolder;
     text-transform: capitalize;
