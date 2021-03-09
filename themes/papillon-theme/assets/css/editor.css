@@ -712,6 +712,11 @@ footer {
     width: 100%;
 }
 
+.woocommerce .woocommerce-info {
+    border-top-color: #c9bc3d !important;
+    background: #f5f5f5 !important;
+}
+
 .entry-title > a {
     color: #c9bc3d;
 }
