@@ -718,6 +718,12 @@ footer {
     text-transform: capitalize;
 }
 
+p > .woocommerce-Button {
+    background-color: rgb(220, 220, 220) !important;
+    color: #222222 !important;
+    margin-top: 1rem !important;
+}
+
 .woocommerce-billing-fields__field-wrapper .form-row  label, .woocommerce-additional-fields__field-wrapper .form-row label{
     font-weight: bolder;
     text-transform: capitalize;
