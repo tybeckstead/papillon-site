@@ -488,7 +488,7 @@ main .navigation {
     -o-box-shadow: 0 0 0.4rem 0.1rem rgba(0, 0, 0, 0.2) !important;
 }
 
-.contact-btn .wp-block-button{
+.contact-btn .wp-block-button {
     color: white;
     background-color: #000000;
     border-radius: 50px;
@@ -498,7 +498,7 @@ main .navigation {
     -o-border-radius: 50px;
 }
 
-.is-btn .wp-block-button_link .wp-block-button, .woocommerce-checkout-review-order #payment .button{
+.is-btn .wp-block-button_link .wp-block-button, .woocommerce-checkout-review-order #payment .button, .nf-form-content input[type=button]{
     color: #ffffff;
     background: #000000 !important;
     border-radius: 0%;
@@ -510,6 +510,10 @@ main .navigation {
     font-weight: 400;
     font-style: normal;
     letter-spacing: 1.5px;
+}
+
+#post-63 .wp-block-columns .wp-block-column {
+    margin-top: 1rem !important;
 }
 
 .woocommerce-billing-fields__field-wrapper label, .woocommerce-additional-fields__field-wrapper label {
@@ -732,6 +736,19 @@ p > .woocommerce-Button {
 .woocommerce-billing-fields__field-wrapper .form-row  label, .woocommerce-additional-fields__field-wrapper .form-row label, .woocommerce-EditAccountForm p label{
     font-weight: bolder;
     text-transform: capitalize;
+}
+
+.nf-field-element .ninja-forms-field {
+    border: 0.1rem #c9bc3d solid !important;
+    background-color: #fffdfd;
+}
+
+.ninja-forms-field ::placeholder {
+    color: rgb(46, 46, 46) !important;
+}
+
+.nf-form-fields-required {
+    display: none !important;
 }
 
 .woocommerce .woocommerce-info {
