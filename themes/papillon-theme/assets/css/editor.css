@@ -712,6 +712,12 @@ footer {
     width: 100%;
 }
 
+.woocommerce-billing-fields > h3 {
+    font-size: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
 .woocommerce .woocommerce-info {
     border-top-color: #c9bc3d !important;
     background: #f5f5f5 !important;
