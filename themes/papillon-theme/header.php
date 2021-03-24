@@ -107,6 +107,9 @@
 						</g>
 					</svg>
 				</div>				
+				<div class="cell large-12 medium-12 small-12 search-bar">
+					<?php echo get_search_form(); ?>
+				</div>				
 				<div class="cell large-12 medium-12 navigation hide-for-medium-up">
 					<nav id="site-navigation" class="main-navigation">
 						<?php
