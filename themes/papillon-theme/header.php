@@ -68,7 +68,7 @@
 				</div>
 				<div class="cell small-1 show-for-small-only"></div>
 				<div class="cell large-3 medium-5 main_icons when_small small-6 ">
-					<svg  class="icons" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					<svg  class="icons" version="1.1" id="search_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 						width="310.42px" height="310.42px" viewBox="0 0 310.42 310.42" style="enable-background:new 0 0 310.42 310.42;"
 						xml:space="preserve">
 						<g>
@@ -107,7 +107,7 @@
 						</g>
 					</svg>
 				</div>				
-				<div class="cell large-12 medium-12 small-12 search-bar">
+				<div class="cell large-12 medium-12 small-12 search-bar-div" id="search_area">
 					<?php echo get_search_form(); ?>
 				</div>				
 				<div class="cell large-12 medium-12 navigation hide-for-medium-up">
@@ -125,3 +125,14 @@
 			</div>
 		</div>
 	</header><!-- #masthead -->
+
+	<script>
+	document.getElementById("search_icon").addEventListener("click", function() { 
+		var x = document.getElementById('search_area');
+		if (x.style.display === 'none') {
+			x.style.display = 'block';
+		} else {
+			x.style.display = 'none';
+		}
+	});
+	</script>

@@ -576,23 +576,34 @@ main .navigation {
     -o-margin: 0 0 4rem 0;
 }
 
-header .search-bar {
+header .search-bar-div {
     padding: 1rem;
     -webkit-padding: 1rem;
     -moz-padding: 1rem;
     -ms-padding: 1rem;
     -o-padding: 1rem;
+    display: none;
 }
 
-.search-form>.search-submit {
+.search-form .search-submit {
     background: #169367;
     color: #fffdfd;
     font-size: 1.1rem;
-    padding: 0.5rem;
-    -webkit-padding: 0.5rem;
-    -moz-padding: 0.5rem;
-    -ms-padding: 0.5rem;
-    -o-padding: 0.5rem;
+    padding: 0.8rem;
+    -webkit-padding: 0.8rem;
+    -moz-padding: 0.8rem;
+    -ms-padding: 0.8rem;
+    -o-padding: 0.8rem;
+    margin: 0 0.5rem;
+    -webkit-margin: 0 0.5rem;
+    -moz-margin: 0 0.5rem;
+    -ms-margin: 0 0.5rem;
+    -o-margin: 0 0.5rem;
+    box-shadow: 1px 3px 6px 1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 1px 3px 6px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 3px 6px 1px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 1px 3px 6px 1px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 1px 3px 6px 1px rgba(0, 0, 0, 0.2);
 }
 
 .price {
@@ -972,11 +983,17 @@ b>a {
 }
 
 
-
+input[type='search'] {
+    padding: 1.3rem;
+    -webkit-padding: 1.3rem;
+    -moz-padding: 1.3rem;
+    -ms-padding: 1.3rem;
+    -o-padding: 1.3rem;
+}
 
 #instagram,
 #nav,
-#Capa_1,
+#search_icon,
 #twitter,
 #facebook,
 #cart,
@@ -984,4 +1001,5 @@ b>a {
 #youtube,
 #snapchat {
     fill: #c9bc3d;
+    cursor: pointer;
 }
