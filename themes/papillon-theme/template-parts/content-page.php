@@ -31,7 +31,7 @@
 			</div>
 			<div class="cell large-12 small-12">
 				<div class="grid-x grid-margin-x">
-					<div class="large-8 large-offset-2 ">
+					<div class="large-8 medium-8 small-12 large-offset-2 medium-offset-2">
 						<ul class="flex_links">
 							<li class="item_home"><a href="<?php echo esc_url( content_url( '/shop' ) ); ?>">Women</a></li>
 							<li class="item_home"><a href="<?php echo esc_url( content_url( '/shop' ) ); ?>">Men</a></li>
