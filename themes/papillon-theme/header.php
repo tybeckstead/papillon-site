@@ -110,7 +110,7 @@
 				<div class="cell large-12 medium-12 small-12 search-bar-div" id="search_area">
 					<?php echo get_search_form(); ?>
 				</div>				
-				<div class="cell large-12 medium-12 navigation hide-for-medium-up">
+				<div class="cell large-12 medium-12 navigation">
 					<nav id="site-navigation" class="main-navigation">
 						<?php
 							wp_nav_menu(
@@ -130,6 +130,15 @@
 	// FUNCTION TO DISPLAY AND HIDE SEARCH FORM FIELD 
 	document.getElementById("search_icon").addEventListener("click", function() { 
 		var x = document.getElementById('search_area');
+		if (x.style.display === 'none') {
+			x.style.display = 'block';
+		} else {
+			x.style.display = 'none';
+		}
+	});
+	// FUNCTION HIDE AND SHOW NAVIGATION
+	document.getElementById("nav").addEventListener("click", function() { 
+		var x = document.getElementById('header_section');
 		if (x.style.display === 'none') {
 			x.style.display = 'block';
 		} else {

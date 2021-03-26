@@ -1243,6 +1243,20 @@ p>.woocommerce-Button {
 /* $ TABLET & BELOW SCREENS */
 @media only screen and (max-width:768px) {
 
+    /* @ WORDPRESS MAIN HEADER */
+    #header_section {
+        display: none;
+        flex-direction: column;
+        justify-content: space-evenly;
+        list-style: none;
+        padding: 10px 0;
+        -webkit-padding: 10px 0;
+        -moz-padding: 10px 0;
+        -ms-padding: 10px 0;
+        -o-padding: 10px 0;
+    }
+
+
     /* @ HOMEPAGE CATAGORY */
     .product_category,
     .product_category_title {
