@@ -14,33 +14,36 @@
 
 	<main class="site_blog_content">
 		<?php
-		$clothing_args = array(
-			'post_type' => 'papillon_clothing',
-			'posts_per-page' => 3,
-			'offset' => 1,
-		);
+		
+		if( ! is_front_page() &&  is_single( array( 'shop', 'cart', 'product', 'my-account' ))) {
 
-		$clothes_query = new WP_Query( $clothing_args );
+			$clothing_args = array(
+				'post_type' => 'papillon_clothing',
+				'posts_per-page' => 3,
+				'offset' => 1,
+			);
 
-		if ( $clothes_query->have_posts(  ) ) {
-			while ( $clothes_query->have_posts(  ) ) {
-				$clothes_query->the_post();
-				$post_title = get_the_title();
-				$post_content = get_the_excerpt();
-				$post_thumbnail = get_the_post_thumbnail_url();
-				$post_link = get_the_permalink();
-				?>
-				<div class="blog-content">
-					<hr class="divider">
-					<h2 class="blog_post_title"><a href="<?php echo $post_link; ?>"><?php echo $post_title;?></a></h2>
-					<img class="custom_image_post" src="<?php echo $post_thumbnail; ?>" alt="Featured Post Image"  >
-					<p class="blog_paragraph"><?php echo $post_content;?></p>
-					<p class="read_more"><a href="<?php echo $post_title?>"> Read More</a></p>
-				</div> 
-				<?php
+			$clothes_query = new WP_Query( $clothing_args );
+
+			if ( $clothes_query->have_posts(  ) ) {
+				while ( $clothes_query->have_posts(  ) ) {
+					$clothes_query->the_post();
+					$post_title = get_the_title();
+					$post_content = get_the_excerpt();
+					$post_thumbnail = get_the_post_thumbnail_url();
+					$post_link = get_the_permalink();
+					?>
+					<div class="blog-content">
+						<hr class="divider">
+						<h2 class="blog_post_title"><a href="<?php echo $post_link; ?>"><?php echo $post_title;?></a></h2>
+						<img class="custom_image_post" src="<?php echo $post_thumbnail; ?>" alt="Featured Post Image"  >
+						<p class="blog_paragraph"><?php echo $post_content;?></p>
+						<p class="read_more"><a href="<?php echo $post_title?>"> Read More</a></p>
+					</div> 
+					<?php
+				}
 			}
-		}
-		?>
+		}	?>
 	</main>
 
 	<footer id="colophon" class="site-footer">
