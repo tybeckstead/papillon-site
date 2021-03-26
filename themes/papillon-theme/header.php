@@ -67,8 +67,8 @@
 					</svg></a>
 				</div>
 				<div class="cell small-1 show-for-small-only"></div>
-				<div class="cell large-3 medium-5 main_icons when_small small-6 ">
-					<svg  class="icons" version="1.1" id="search_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				<div class="cell large-3 medium-5 main_icons small-6 ">
+					<svg class="icons" version="1.1" id="search_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 						width="310.42px" height="310.42px" viewBox="0 0 310.42 310.42" style="enable-background:new 0 0 310.42 310.42;"
 						xml:space="preserve">
 						<g>
@@ -127,6 +127,7 @@
 	</header><!-- #masthead -->
 
 	<script>
+	// FUNCTION TO DISPLAY AND HIDE SEARCH FORM FIELD 
 	document.getElementById("search_icon").addEventListener("click", function() { 
 		var x = document.getElementById('search_area');
 		if (x.style.display === 'none') {

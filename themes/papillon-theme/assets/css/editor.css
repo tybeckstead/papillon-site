@@ -1,13 +1,16 @@
-/*! POST & PAGE */
-.post,
-.page {
-    margin: 0 !important;
-    -webkit-margin: 0 !important;
-    -moz-margin: 0 !important;
-    -ms-margin: 0 !important;
-    -o-margin: 0 !important;
-}
+/* % IMPORT GOOGLE FONT */
 
+/* $ Heading Font - Libre Caslon Display */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+
+/* $ Paragraph Font - Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/*^ POST & PAGES*/
+/* $ POST, PAGES, SITE  */
+.post,
+.page,
 .single-post .site .site-main,
 .blog .site-main {
     margin: 0 !important;
@@ -17,22 +20,7 @@
     -o-margin: 0 !important;
 }
 
-.post>.entry-header {
-    position: absolute;
-    width: 100%;
-}
-
-.post .entry-header .entry-title {
-    margin-top: 5rem;
-    color: white;
-    text-align: center;
-    text-transform: capitalize;
-    font-family: 'Libre Caslon Display', serif !important;
-    font-size: 5rem;
-    color: #c9bc3d;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
-}
-
+/* @ ENTRY CONTENT */
 .post .entry-content {
     margin-top: 3rem !important;
     padding: 1rem !important;
@@ -42,7 +30,7 @@
     -o-padding: 1rem !important;
 }
 
-/* % SITE MAIN */
+/* $ SITE MAIN */
 .site-main {
     margin: 2rem 1rem;
     -webkit-margin: 2rem 1rem;
@@ -62,13 +50,49 @@
     -o-margin: auto !important;
 }
 
-
-
 /* ^ HEADER */
-.site-header {
-    background-color: #324e75;
+/* $ ENTRY HEADER */
+/* @ POST ENTRY HEADER CONTAINER */
+.post>.entry-header {
+    position: absolute;
+    width: 100%;
 }
 
+/* @ POST ENTRY TITLE */
+.post .entry-header .entry-title {
+    margin-top: 5rem;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Libre Caslon Display', serif !important;
+    font-size: 5rem;
+    color: #c9bc3d;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* @ Entry Header Meta Text  */
+.entry-header .entry-meta {
+    margin: 7rem 0 0 3rem !important;
+    color: white;
+    -webkit-margin: 7rem 0 0 3rem !important;
+    -moz-margin: 7rem 0 0 3rem !important;
+    -ms-margin: 7rem 0 0 3rem !important;
+    -o-margin: 7rem 0 0 3rem !important;
+}
+
+/* $ SITE HEADER */
+/* @ TOP HEADER LVL HEADER CONTAINER */
+.site-header {
+    background-color: #324e75;
+    padding: 10px 0 0;
+    -webkit-padding: 10px 0 0;
+    -moz-padding: 10px 0 0;
+    -ms-padding: 10px 0 0;
+    -o-padding: 10px 0 0;
+}
+
+/* $ NAVIGATION ICONS */
+/* @ NAVIGATION ICON CONTAINER */
 .main_icons {
     margin-top: 1rem;
     display: flex;
@@ -76,7 +100,14 @@
     justify-content: space-evenly;
 }
 
+/* @ NAVIGATION ICONS */
+.icons {
+    width: 2.5rem;
+    height: 35px;
+}
 
+/* $ LOGO */
+/* @ MAIN LOGO CONTAINER */
 .logo_box {
     display: flex;
     justify-content: center;
@@ -87,6 +118,13 @@
     -o-padding: 1rem;
 }
 
+/* @ MAIN LOGO */
+#logo {
+    width: 200px;
+    height: auto;
+}
+
+/* @ WORDPRESS MAIN HEADER */
 #header_section {
     display: flex;
     flex-direction: row;
@@ -99,26 +137,18 @@
     -o-padding: 10px 0;
 }
 
-.entry-header .entry-meta {
-    margin: 7rem 0 0 3rem !important;
-    color: white;
-    -webkit-margin: 7rem 0 0 3rem !important;
-    -moz-margin: 7rem 0 0 3rem !important;
-    -ms-margin: 7rem 0 0 3rem !important;
-    -o-margin: 7rem 0 0 3rem !important;
+/* $ NAVIGATION */
+/* @ NAVIGATION HEADER CONTAINER */
+main .navigation {
+    background: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -ms-box-shadow: none !important;
+    -o-box-shadow: none !important;
 }
 
-#logo {
-    width: 200px;
-    height: auto;
-}
-
-.icons {
-    width: 2.5rem;
-    height: 35px;
-}
-
-
+/* @ NAVIGATION STYLING */
 .navigation {
     margin-top: 15px;
     background: #00a8b6;
@@ -129,25 +159,14 @@
     -o-box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.2);
 }
 
-
-main .navigation {
-    background: none !important;
-    box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-    -moz-box-shadow: none !important;
-    -ms-box-shadow: none !important;
-    -o-box-shadow: none !important;
+/* @ NAVIATION MENU ITEMS */
+.main-navigation .menu-item a:hover {
+    color: #324e75 !important;
 }
 
-.site-header {
-    padding: 10px 0 0;
-    -webkit-padding: 10px 0 0;
-    -moz-padding: 10px 0 0;
-    -ms-padding: 10px 0 0;
-    -o-padding: 10px 0 0;
-}
 
 /* $ HEADER SEARCH */
+/* @ HEADER SEARCH CONTAINER */
 header .search-bar-div {
     padding: 1rem;
     -webkit-padding: 1rem;
@@ -157,6 +176,7 @@ header .search-bar-div {
     display: none;
 }
 
+/*  @ SEARCH FORM SUBMIT BUTTON */
 .search-form .search-submit {
     background: #169367;
     color: #fffdfd;
@@ -178,6 +198,7 @@ header .search-bar-div {
     -o-box-shadow: 1px 3px 6px 1px rgba(0, 0, 0, 0.2);
 }
 
+/* @ INPUT SEARCH PADDING */
 input[type='search'] {
     padding: 1.3rem;
     -webkit-padding: 1.3rem;
@@ -185,6 +206,7 @@ input[type='search'] {
     -ms-padding: 1.3rem;
     -o-padding: 1.3rem;
 }
+
 
 /* ^ FOOTER */
 main footer {
@@ -865,19 +887,6 @@ b>a {
 }
 
 
-
-
-
-
-
-/* % IMPORT GOOGLE FONT */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
-
-
-
-
 /* % TEXT STYLING */
 h3 {
     color: #000000;
@@ -893,7 +902,7 @@ p>a {
 }
 
 .body-paragraph {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 1.5px;
@@ -944,9 +953,6 @@ p>a {
     font-style: normal;
 }
 
-.main-navigation .menu-item a:hover {
-    color: #324e75 !important;
-}
 
 .entry-title>a {
     color: #c9bc3d;
