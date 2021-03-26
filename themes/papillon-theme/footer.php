@@ -14,7 +14,6 @@
 
 	<main class="site_blog_content">
 		<?php
-
 		// Conditional Statement if page isnt front or wooocommerce show custom post type 
 		if( ! is_front_page() &&  ! is_page( array( 'shop', 'cart', 'product', 'my-account', 'checkout' ))) {
 
@@ -28,7 +27,7 @@
 
 			if ( $clothes_query->have_posts(  ) ) {
 				while ( $clothes_query->have_posts(  ) ) {
-					// Create Variables for php
+					// Create Variables for from post set functions
 					$clothes_query->the_post();
 					$post_title = get_the_title();
 					$post_content = get_the_excerpt();
@@ -49,12 +48,14 @@
 		}	?>
 	</main>
 
+	<!-- CUSTOM FOOTER DESIGN -->
 	<footer id="colophon" class="site-footer">
 		<div class="grid-container">
 			<div class="grid-x">
 				<div class="large-3 medium-6 cell footer_info">
 					<h3 class="footer_title">Help</h3>
 					<?php
+					// CALL WP MENU FOOTER
 						wp_nav_menu(
 							array(
 								'theme_location' => 'footer_section_1',
@@ -66,6 +67,7 @@
 				<div class="large-3 medium-6 cell footer_info">
 					<h3 class="footer_title">The Company</h3>
 					<?php
+						// CALL WP MENU FOOTER
 						wp_nav_menu(
 							array(
 								'theme_location' => 'footer_section_2',

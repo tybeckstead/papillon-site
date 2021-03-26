@@ -13,6 +13,7 @@
 get_header();
 ?>
 <!-- Custom Main Blog Posts -->
+<!-- USED FOR BASIC BLOG POST TEMPLATES -->
 <main id="post" role="main">
 	
 	<?php
