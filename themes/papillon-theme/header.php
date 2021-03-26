@@ -139,10 +139,12 @@
 	// FUNCTION HIDE AND SHOW NAVIGATION
 	document.getElementById("nav").addEventListener("click", function() { 
 		var x = document.getElementById('header_section');
+		var nav = document.getElementById('nav');
 		if (x.style.display === 'none') {
 			x.style.display = 'block';
 		} else {
 			x.style.display = 'none';
+			nav.style.display = 'block';
 		}
 	});
 	</script>
