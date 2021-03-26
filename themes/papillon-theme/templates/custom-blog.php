@@ -51,7 +51,7 @@ get_header();
 
                             <div class="blog-content">
                                 <hr class="divider">
-                                <h4 class="blog_post_title"><a href="<?php echo $post_link; ?>"><?php echo $post_title;?></a></h4>
+                                <h2 class="blog_post_title"><a href="<?php echo $post_link; ?>"><?php echo $post_title;?></a></h2>
                                 <img class="wp_blog_img" src="<?php echo $post_thumbnail; ?>" alt="Featured Post Image"  >
                                 <p class="blog_paragraph"><?php echo $post_content;?></p>
                                 <p class="read_more"><a href="<?php echo $post_title?>"> Read More</a></p>

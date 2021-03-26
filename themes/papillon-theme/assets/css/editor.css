@@ -93,7 +93,7 @@
 }
 
 .blog-content .blog_post_title>a {
-    font-size: 1.5rem !important;
+    font-size: 2.3rem !important;
     text-transform: capitalize;
     color: #c9bc3d;
 }
@@ -990,6 +990,8 @@ input[type='search'] {
     -ms-padding: 1.3rem;
     -o-padding: 1.3rem;
 }
+
+
 
 #instagram,
 #nav,
