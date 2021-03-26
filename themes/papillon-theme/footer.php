@@ -11,6 +11,24 @@
 
 ?>
 
+	<?php
+	$clothing_args = array(
+		'post_type' => 'papillon_clothing',
+		'posts_per-page' => 3,
+	);
+
+	$clothes_query = new WP_Query( $clothing_args );
+
+	if ( $clothes_query->have_posts(  ) ) {
+		while ( $clothes_query->have_posts(  ) ) {
+			$clothes_query->the_post();
+			?>
+			<h2><?php the_title(); ?></h2>
+			<?php
+		}
+	}
+	?>
+
 	<footer id="colophon" class="site-footer">
 		<div class="grid-container">
 			<div class="grid-x">
