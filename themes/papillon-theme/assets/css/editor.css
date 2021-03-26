@@ -1,4 +1,4 @@
-/* % IMPORT GOOGLE FONT */
+/* ^ IMPORT GOOGLE FONT */
 
 /* $ Heading Font - Libre Caslon Display */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
@@ -49,6 +49,7 @@
     -ms-margin: auto !important;
     -o-margin: auto !important;
 }
+
 
 /* ^ HEADER */
 /* $ ENTRY HEADER */
@@ -209,16 +210,20 @@ input[type='search'] {
 
 
 /* ^ FOOTER */
+/* $ MAIN FOOTER */
+/* @ MAIN TO FOOTER CONTAINER */
 main footer {
     background: none !important;
 }
 
+/* @ FOOTER CONTAINER */
 footer {
     background: #324e75;
     color: white;
     padding-top: 20px;
 }
 
+/* @ MAIN-FOOTER */
 .entry-footer {
     margin: 2rem 0;
     -webkit-margin: 2rem 0;
@@ -227,34 +232,8 @@ footer {
     -o-margin: 2rem 0;
 }
 
-#newsletter_container {
-    display: flex !important;
-    flex-direction: row;
-}
-
-.footer_info .menu-footer_section_1-container #footer_section_1,
-.footer_info .menu-footer_section_2-container #footer_section_2 {
-    display: flex;
-    flex-direction: column;
-    margin-left: -13px;
-}
-
-#footer_section_1 .menu-item>a,
-#footer_section_2 .menu-item>a,
-.rights p>a {
-    color: white !important;
-    font-size: 0.8rem;
-}
-
-.footer_title {
-    font-size: 1.6rem;
-    text-align: center !important;
-}
-
-.rights .footer_right_reserved {
-    font-size: 0.8rem !important;
-}
-
+/* $ FOOTER INFO */
+/* @ FOOTER INFO CONTAINER */
 footer .footer_info {
     margin: 1rem 0;
     -webkit-margin: 1rem 0;
@@ -263,6 +242,48 @@ footer .footer_info {
     -o-margin: 1rem 0;
 }
 
+/* @ FOOTER  MENU SECTIONS */
+.footer_info .menu-footer_section_1-container #footer_section_1,
+.footer_info .menu-footer_section_2-container #footer_section_2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -13px;
+}
+
+/* @ FOOTER MENU TITLES */
+.footer_title {
+    font-size: 1.6rem;
+    text-align: center !important;
+}
+
+/* @ FOOTER MENU ITEMS STYLES */
+#footer_section_1 .menu-item>a,
+#footer_section_2 .menu-item>a,
+.rights p>a {
+    color: white !important;
+    font-size: 0.8rem;
+}
+
+/* @ FOOTER SECTION MENU HOVER STYLE */
+#footer_section_1 .menu-item>a:hover,
+#footer_section_2 .menu-item>a:hover,
+a>.footer_text:hover,
+.rights p>a:hover {
+    color: #c9bc3d !important;
+}
+
+/* $ SITE INFO */
+/* @ SITE INFO CONTAINER */
+.site-info {
+    padding-top: 17px;
+}
+
+/* @ RIGHTS SERVERED TEXT STYLES*/
+.rights .footer_right_reserved {
+    font-size: 0.8rem !important;
+}
+
+/* @ FOOTER MENU LIST ITEMS */
 .foot_item {
     display: flex;
     flex-direction: row;
@@ -280,18 +301,14 @@ footer .footer_info {
     -o-margin: 0.5rem 0;
 }
 
+/* $ SOCIAL MEDIA FOOTER SECTION */
+/* @ FOOTER TEXT SOCIAL MEDIA */
 a>.footer_text {
     color: white !important;
     font-size: 0.8rem;
 }
 
-#footer_section_1 .menu-item>a:hover,
-#footer_section_2 .menu-item>a:hover,
-a>.footer_text:hover,
-.rights p>a:hover {
-    color: #c9bc3d !important;
-}
-
+/* @ FOOTER TEXT STYLE */
 .footer_text {
     margin: 0 !important;
     -webkit-margin: 0 !important;
@@ -305,23 +322,33 @@ a>.footer_text:hover,
     -o-padding: 0 !important;
 }
 
+/* @ FOOTER SOCIAL MEDIA ICONS */
 .footer_icon {
     width: 30px;
     height: 30px;
     margin-right: 15px;
-
 }
 
+/* $ NEWSLETTER */
+/* @ NEWSLETTER TEXT */
 #news_text {
     font-size: 0.8rem;
 }
 
+/* @ NEWSLETTER TEXT A TAG */
 #news_text>a,
 b>a {
     color: white;
     text-decoration: underline;
 }
 
+/* @ NEWSLETTER CONTAINER */
+#newsletter_container {
+    display: flex !important;
+    flex-direction: row;
+}
+
+/* @ NEWSLETTER INPUT STYLE */
 #newsletter {
     background: #000000;
     padding: 0 0 0 17px;
@@ -332,7 +359,7 @@ b>a {
     color: #ffffff;
 }
 
-
+/* @ NEWSLETTER INPUT ARROW */
 #arrow {
     cursor: pointer;
     font-size: 27px;
@@ -340,11 +367,6 @@ b>a {
     color: white;
     left: 90%
 }
-
-.site-info {
-    padding-top: 17px;
-}
-
 
 /* # WOOCOMMERCE */
 .product-category .count {
