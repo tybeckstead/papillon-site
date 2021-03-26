@@ -10,6 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<!-- Conditional Statement for front page -->
 	<?php if (is_front_page() ) {
 		?>
 		<div class="grid-x">

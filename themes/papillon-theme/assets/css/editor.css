@@ -106,6 +106,12 @@
     -o-margin: 0;
 }
 
+.home .entry-content {
+    max-width: 100%;
+}
+
+
+
 .main_thumb {
     height: 50vh;
     width: 100%;
@@ -116,6 +122,40 @@
 .home_text {
     text-align: center;
     font-family: 'Libre Caslon Display', serif !important;
+}
+
+.model_feature_1 {
+    color: black;
+    background-color: #f6f6f6;
+}
+
+.model_feature_2 {
+    color: white;
+    background-color: #222222;
+}
+
+.thumbnail_post_image {
+    height: 100%;
+}
+
+.model_feature_1 .wp-block-columns,
+.model_feature_2 .wp-block-columns {
+    max-width: 1008px;
+    padding: 1rem 2rem 0;
+    -webkit-padding: 1rem 2rem 0;
+    -moz-padding: 1rem 2rem 0;
+    -ms-padding: 1rem 2rem 0;
+    -o-padding: 1rem 2rem 0;
+    margin: auto;
+    -webkit-margin: auto;
+    -moz-margin: auto;
+    -ms-margin: auto;
+    -o-margin: auto;
+}
+
+.model_feature_1 .wp-block-column .wp-block-image,
+.model_feature_2 .wp-block-column .wp-block-image {
+    margin-bottom: 0 !important;
 }
 
 .home_other_text {
@@ -130,11 +170,11 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 1rem 0;
-    -webkit-margin: 1rem 0;
-    -moz-margin: 1rem 0;
-    -ms-margin: 1rem 0;
-    -o-margin: 1rem 0;
+    margin: 2rem 0;
+    -webkit-margin: 2rem 0;
+    -moz-margin: 2rem 0;
+    -ms-margin: 2rem 0;
+    -o-margin: 2rem 0;
 }
 
 .item_home {

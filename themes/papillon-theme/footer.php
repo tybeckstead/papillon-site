@@ -14,7 +14,8 @@
 
 	<main class="site_blog_content">
 		<?php
-		
+
+		// Conditional Statement if page isnt front or wooocommerce show custom post type 
 		if( ! is_front_page() &&  is_single( array( 'shop', 'cart', 'product', 'my-account' ))) {
 
 			$clothing_args = array(
@@ -27,12 +28,14 @@
 
 			if ( $clothes_query->have_posts(  ) ) {
 				while ( $clothes_query->have_posts(  ) ) {
+					// Create Variables for php
 					$clothes_query->the_post();
 					$post_title = get_the_title();
 					$post_content = get_the_excerpt();
 					$post_thumbnail = get_the_post_thumbnail_url();
 					$post_link = get_the_permalink();
 					?>
+					<!-- Content to Page -->
 					<div class="blog-content">
 						<hr class="divider">
 						<h2 class="blog_post_title"><a href="<?php echo $post_link; ?>"><?php echo $post_title;?></a></h2>
