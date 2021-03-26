@@ -618,20 +618,35 @@ b>a {
 
 
 /* % MY ACCOUNT PAGE */
+
+/* $ ACTIVE WOOCOMMERCE ACCOUNT */
+/* @ ACTIVE FIELD CONTAINER */
 .is-active {
     box-shadow: 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.2);
     -ms-box-shadow: 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.2);
     -o-box-shadow: 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.2);
+    color: white !important;
+    background: #324e75 !important;
 }
 
+/* @ IS ACTIVE A TAG */
+.is-active>a {
+    color: white !important;
+    background: #324e75 !important;
+}
+
+
+/* $ MY ACCOUNT - BILLING */
+/* @ COUNTRY FIELD*/
 #billing_country_field {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+/* @ BILLING FIELD TEXT */
 .woocommerce-billing-fields>h3,
 #order_review_heading,
 .woocommerce-additional-fields>h3,
@@ -641,12 +656,13 @@ b>a {
     text-transform: capitalize;
 }
 
+/* @ BILLING ENTRY TITLE */
 .woocommerce-account .entry-header h1 {
     text-transform: capitalize;
 }
 
-
-
+/* $ MY ACCOUNT NAVIGATION */
+/* @ NAVIGATION MY ACCOUNT LINK */
 .woocommerce-MyAccount-navigation-link {
     text-transform: capitalize !important;
     margin: 2rem 0 !important;
@@ -663,28 +679,40 @@ b>a {
     background: rgba(225, 225, 225, 0.2);
 }
 
+/* @ MY ACCOUNT NAVIGATION LINK A TEXT  */
 .woocommerce-MyAccount-navigation-link>a {
     font-size: 1.3rem;
 }
 
+/* @ MY ACCOUNT NAVIGATION HOVER TEXT  */
 .woocommerce-MyAccount-navigation-link>a:hover {
     color: #c9bc3d !important;
 }
 
+/* @ MY ACCOUNT UL LIST STYLE */
+.woocommerce-MyAccount-navigation ul {
+    list-style: none;
+}
+
+/* $ My Account Edit */
+/* @ My Account FORM LAYOUT */
 .woocommerce-MyAccount-content .woocommerce-EditAccountForm {
     display: flex;
     flex-direction: column;
     justify-content: stretch;
 }
 
+/* @ EDIT FORM WIDTH */
 .edit-account>.woocommerce-form-row {
     width: 100% !important;
 }
 
+/* @ EDIT FIELDSET */
 .edit-account>fieldset {
     width: 100% !important;
 }
 
+/* @ MY ACCOUNT CONTENT */
 .woocommerce .woocommerce-MyAccount-content {
     margin-top: 2rem;
     padding: 0 2rem;
@@ -693,18 +721,6 @@ b>a {
     -ms-padding: 0 2rem;
     -o-padding: 0 2rem;
 }
-
-.woocommerce-MyAccount-navigation ul {
-    list-style: none;
-}
-
-.is-active,
-.is-active>a {
-    color: white !important;
-    background: #324e75 !important;
-}
-
-
 
 /* ^ BLOG */
 .blog_paragraph {
