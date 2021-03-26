@@ -13,15 +13,16 @@
 	<!-- Conditional Statement for front page -->
 	<?php if (is_front_page() ) {
 		?>
-		<div class="grid-x">
-			<div class="cell large-6 medium-6 small-12">
+		<!-- IF ON HOMEPAGE PUT THIS IN HEADER INSTEAD OF TITLE -->
+		<div class="grid-x front_header">
+			<div class="cell large-6 medium-12 small-12">
 				<?php if( has_post_thumbnail() ) { ?>
 					<div class="post-thumbnail main_thumb">
 						<img class="thumbnail_post_image" src="<?php echo esc_url( get_the_post_thumbnail_url() ); ?>">
 					</div>
 				<?php } ?>
 			</div>
-			<div class="cell large-6 medium-6 small-12">
+			<div class="cell large-6 medium-12 small-12">
 				<div class="center_align">
 					<h2 class="home_text">Dress in Style with Papillon</h2>
 					<h5 class="home_other_text">Check out our latest fashion collection</h5>
@@ -45,6 +46,7 @@
 	}else {?> 
 		<header class="entry-header">
 			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+			<!-- IF POST HAS A THUMBNAIL SHOW ON SCREEN -->
 			<?php if( has_post_thumbnail() ) { ?>
 				<div class="post-thumbnail main_thumb">
 					<img class="thumbnail_post_image" src="<?php echo esc_url( get_the_post_thumbnail_url() ); ?>">

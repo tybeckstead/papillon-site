@@ -12,7 +12,7 @@
 
 get_header();
 ?>
-<!-- MAKE UNQUE -->
+<!-- Custom Main Blog Posts -->
 <main id="post" role="main">
 	
 	<?php
@@ -28,6 +28,8 @@ get_header();
 
             <main class="site_blog_content">
                 <?php
+                    // WP_Query Custom Post Type
+                    // Array Takes in 6 blogs per page and show most recent post
                     $args = array(
                         'posts_per_page' => 6, 
                         'offset' => 1,
@@ -41,7 +43,7 @@ get_header();
                 
                         while ( $query->have_posts() ) {
                             $query->the_post();
-                            
+                            // Variables creating for title, excerpt, image, and link to post
                             $post_title = get_the_title();
                             $post_content = get_the_excerpt();
                             $post_thumbnail = get_the_post_thumbnail_url();
@@ -49,6 +51,7 @@ get_header();
                 
                             ?>
 
+                            <!-- Content Outputted to page -->
                             <div class="blog-content">
                                 <hr class="divider">
                                 <h2 class="blog_post_title"><a href="<?php echo $post_link; ?>"><?php echo $post_title;?></a></h2>

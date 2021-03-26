@@ -3,6 +3,10 @@
  * Registering Custom Post Type
 */
 
+
+// CUSTOM POST TYPE ADDED
+
+// PAPPILON_INIT IS FUNCTION TO RUN POST TYPE
 function papillon_init() {
     $labels = array(
         'name'                  => _x( 'Recipes', 'Post type general name', 'recipe' ),
@@ -48,6 +52,9 @@ function papillon_init() {
         'show_in_rest'       => true
     );
 
+    // REGISTER THE FUNCTION AS PAPPILON_CLOTHING
     register_post_type( 'papillon_clothing', $args );
 }
+
+// INITATE FUNCTION TO RUN
 add_action( 'init', 'papillon_init' );

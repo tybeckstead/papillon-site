@@ -16,7 +16,7 @@
 		<?php
 
 		// Conditional Statement if page isnt front or wooocommerce show custom post type 
-		if( ! is_front_page() &&  is_single( array( 'shop', 'cart', 'product', 'my-account' ))) {
+		if( ! is_front_page() &&  ! is_single( array( 'shop', 'cart', 'product', 'my-account', 'checkout' ))) {
 
 			$clothing_args = array(
 				'post_type' => 'papillon_clothing',
