@@ -824,7 +824,7 @@ b>a {
 
 /* @ TOP HOME CONTENT CONTAINER */
 .front_header {
-    height: 75vh;
+    height: auto;
 }
 
 /* @ ALIGN LEFT TOP CONTENT */
@@ -850,6 +850,22 @@ b>a {
     overflow-y: hidden;
 }
 
+/* @ HOMEPAGE CATAGORY */
+.product_category,
+.product_category_title {
+    margin: 1rem 3rem;
+    -webkit-margin: 1rem 3rem;
+    -moz-margin: 1rem 3rem;
+    -ms-margin: 1rem 3rem;
+    -o-margin: 1rem 3rem;
+}
+
+/* @ HOMEPAGE CATEOGRY TITLE */
+.product_category_title {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
 /* @ INDIVIDUAL: MODEL - FEMALE CONTAINER */
 .model_feature_1 {
     color: black;
@@ -857,7 +873,8 @@ b>a {
 }
 
 /* @ INDIVIDUAL: MODEL - MALE CONTAINER */
-.model_feature_2 {
+.model_feature_2,
+.model_feature_2 a {
     color: white;
     background-color: #222222;
 }
@@ -1110,8 +1127,6 @@ p>a {
     height: 65%;
 }
 
-
-
 /* ^ BUTTON STYLES */
 /* @ WOOCOMMERCE DEFAULT BUTTON STYLE */
 p>.woocommerce-Button {
@@ -1228,11 +1243,22 @@ p>.woocommerce-Button {
 /* $ TABLET & BELOW SCREENS */
 @media only screen and (max-width:768px) {
 
+    /* @ HOMEPAGE CATAGORY */
+    .product_category,
+    .product_category_title {
+        margin: 1rem 2rem;
+        -webkit-margin: 1rem 2rem;
+        -moz-margin: 1rem 2rem;
+        -ms-margin: 1rem 2rem;
+        -o-margin: 1rem 2rem;
+    }
+
     /* @ FOOTER RIGHTS */
     .footer_right_reserved {
         text-align: center !important;
     }
 
+    /* @ CART WOOCOMMERCE */
     #post-121 .woocommerce {
         display: grid !important;
         grid-template-columns: 2fr 2fr !important;
