@@ -1259,7 +1259,31 @@ p>.woocommerce-Button {
 
 @media only screen and (max-width:768px) {
 
+    /* $ LINKS UNDER IMAGE AND MAIN TEXT */
+    /* @ ALIGN UL LIST OF MEN, WOMEN, KIDS, ETC */
+    .flex_links {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem 0;
+        -webkit-margin: 2rem 0;
+        -moz-margin: 2rem 0;
+        -ms-margin: 2rem 0;
+        -o-margin: 2rem 0;
+    }
 
+    /* @ STYLING LI FROM FLEX LINKS */
+    .item_home {
+        list-style: none;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 2rem 0;
+        -webkit-margin: 2rem 0;
+        -moz-margin: 2rem 0;
+        -ms-margin: 2rem 0;
+        -o-margin: 2rem 0;
+    }
 
     /* @ HOMEPAGE CATAGORY */
     .product_category,
