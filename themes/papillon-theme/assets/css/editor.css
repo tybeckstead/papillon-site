@@ -1113,14 +1113,14 @@ p>a {
 
 
 /* ^ BUTTON STYLES */
+/* @ WOOCOMMERCE DEFAULT BUTTON STYLE */
 p>.woocommerce-Button {
     background-color: rgb(220, 220, 220) !important;
     color: #222222 !important;
     margin-top: 1rem !important;
 }
 
-/* $ */
-/* @ */
+/* @ WP BLOCK BUTTON STYLE */
 .wp-block-button__link {
     border-radius: 0;
     -webkit-border-radius: 0;
@@ -1130,15 +1130,13 @@ p>.woocommerce-Button {
     background: #000000;
 }
 
-/* $ */
-/* @ */
+/* @ COUPON BUTTON */
 .actions .coupon .button {
     background-color: #169367;
     color: white !important;
 }
 
-/* $ */
-/* @ */
+/* @ ACTION BUTTON STYLE */
 .actions>.button {
     background-color: #1792e2 !important;
     color: rgb(255, 255, 255) !important;
@@ -1149,14 +1147,12 @@ p>.woocommerce-Button {
     -o-box-shadow: 0 0 0.4rem 0.1rem rgba(0, 0, 0, 0.2) !important;
 }
 
-/* $ */
-/* @ */
+/* @ ADD TO CART BUTTON */
 .add_to_cart_button {
     margin-left: 20% !important;
 }
 
-/* $ */
-/* @ */
+/* @ CONTACT BUTTON */
 .contact-btn .wp-block-button {
     color: white;
     background-color: #000000;
@@ -1167,8 +1163,7 @@ p>.woocommerce-Button {
     -o-border-radius: 50px;
 }
 
-/* $ */
-/* @ */
+/* @ PAYMENT BUTTON, FORM BUTTON */
 .is-btn .wp-block-button_link .wp-block-button,
 .woocommerce-checkout-review-order #payment .button,
 .nf-form-content input[type=button] {
@@ -1187,8 +1182,7 @@ p>.woocommerce-Button {
 
 
 /* ^ SVG ICON COLOURS */
-/* $ */
-/* @ */
+/* @ ICON FILL */
 #instagram,
 #nav,
 #search_icon,
@@ -1224,6 +1218,8 @@ p>.woocommerce-Button {
 /* ^ MEDIA QUERYS */
 /* $ LARGE SCREENS */
 @media only screen and (min-width:1024px) {
+
+    /* @ HIDE NAVIGATION HEADER */
     #nav {
         display: none;
     }
