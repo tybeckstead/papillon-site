@@ -1241,7 +1241,7 @@ p>.woocommerce-Button {
 }
 
 /* $ TABLET & BELOW SCREENS */
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:1023px) {
 
     /* @ WORDPRESS MAIN HEADER */
     #header_section {
@@ -1255,6 +1255,10 @@ p>.woocommerce-Button {
         -ms-padding: 10px 0;
         -o-padding: 10px 0;
     }
+}
+
+@media only screen and (max-width:768px) {
+
 
 
     /* @ HOMEPAGE CATAGORY */
